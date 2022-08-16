@@ -14,7 +14,8 @@ def bc_cam_fun():
             #print(barcode.data)
             decoded = barcode.data.decode('utf-8')
             #print(decoded)
-            cv2.waitKey(1)
+        #cv2.imshow('Result',img) #remove comment to turn on display
+        cv2.waitKey(1)
     return decoded
 
 #print(bc_cam_fun())
